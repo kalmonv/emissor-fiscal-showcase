@@ -7,11 +7,9 @@
 ## 🔗 Links
 
 - 🌐 Versão web (produção): https://nfe.guarix.com.br/
-- 🖥️ Versão desktop (NW.js): _adicione aqui link para download/instalador, se disponível_
-- 📱 App mobile: _se aplicável – adicione aqui o link da loja (Play Store / App Store)_
+- 🖥️ Versão desktop (NW.js): NÃO DISPONIVEL PARA DOWNLOAD
+- 📱 App mobile: _se aplicável – adicione aqui o link da loja (https://play.google.com/store/apps/details?id=br.com.guarix.nfe)
 - 📺 Vídeo demo no YouTube: _adicione aqui o link do vídeo de apresentação_
-
-> 💡 Sugestão: inclua pelo menos **1 vídeo curto** mostrando a emissão de uma nota do início ao fim (cadastro → preenchimento → transmissão → DANFE).
 
 ---
 
@@ -70,8 +68,7 @@ O Guarix foi projetado para funcionar em dois cenários complementares:
   - suportar cenários de conexão limitada ou intermitente (dependendo da configuração do projeto);
 - Pode sincronizar com o backend/banco central em **MySQL/MariaDB**, conforme necessidade.
 
-> Por isso o projeto utiliza **sqlite3** e **MySQL/MariaDB** em conjunto:  
-> **SQLite3** para o ambiente desktop (local/NW.js) e **MySQL/MariaDB** para a camada de persistência no servidor.
+> Por isso o projeto utiliza **sqlite3** ou **MySQL/MariaDB**, caso seja multiplas maquinas ou somente uma com baixo recurso.
 
 ---
 
@@ -86,15 +83,18 @@ _Ajuste esta lista para ficar 100% alinhada com o que já está pronto hoje._
 - ✅ Sistema de **imposto automático (default)** para evitar dor de cabeça para usuários iniciantes  
   (configurações fiscais padrão por enquadramento, reduzindo erros em CFOP/CST/CSOSN etc.);
 - ✅ Histórico de notas emitidas, com filtros por período, cliente, CFOP etc.;
+- ✅ **Consulta de situação de NF-e/NFC-e** diretamente na SEFAZ;
+- ✅ **Consulta automática de NF-e/NFC-e emitidas contra o CNPJ** do usuário (notas de terceiros);
+- ✅ **Manifestos de destinatário (todos os tipos)** – ciência, confirmação, desconhecimento, operação não realizada;
+- ✅ **Cancelamento de NF-e/NFC-e**, respeitando prazos e regras da legislação;
 - ✅ **Relatório de XML emitidos** (consulta e exportação);
-- ✅ Download de **XML** e visualização/impressão de **DANFE** (modelo 55 e espelho NFC-e);
+- ✅ Download de **XML** e visualização/impressão de **DANFE**;
 - ✅ Envio de nota por e-mail ao cliente (XML + PDF);
 - ✅ **Envio automático de XML mensalmente** para o responsável (ex.: contador ou e-mail cadastrado);
 - ✅ Armazenamento em nuvem das notas autorizadas;
 - ✅ **Sangria de caixa** (lançamentos de saída de caixa vinculados ao movimento de vendas);
 - ✅ Relatórios básicos de faturamento (gráficos com Chart.js);
 - ✅ **Relatório de faturamento e imposto esperado com base no enquadramento** – _em desenvolvimento_;
-- ✅ Impressão direta via sistema (web e desktop).
 
 ---
 
