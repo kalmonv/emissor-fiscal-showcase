@@ -11,7 +11,7 @@ Este documento apresenta alguns screenshots da versão **desktop** do Guarix, lo
 
 ## 1. Tela de login
 
-![Tela de login](screenshot/desktop/screenshot%201.png)
+![Tela de login](screenshot%201.png)
 
 Tela de autenticação do usuário, com seleção de empresa (quando aplicável) e acesso seguro ao sistema.
 
@@ -27,7 +27,7 @@ Visão geral do sistema após o login, com atalhos para emissão de notas, relat
 
 ## 3. Cadastro de clientes
 
-![Cadastro de clientes](screenshot/desktop/screenshot%203.png)
+![Cadastro de clientes](screenshot%203.png)
 
 Tela de gestão de clientes, incluindo dados fiscais, endereço e informações de contato para emissão de documentos fiscais.
 
@@ -35,7 +35,7 @@ Tela de gestão de clientes, incluindo dados fiscais, endereço e informações 
 
 ## 4. Cadastro de produtos/serviços
 
-![Cadastro de produtos](screenshot/desktop/screenshot%204.png)
+![Cadastro de produtos](screenshot%204.png)
 
 Cadastro de produtos e serviços com informações fiscais (NCM, CFOP, CST/CSOSN etc.), facilitando a emissão de NF-e/NFC-e.
 
@@ -43,7 +43,7 @@ Cadastro de produtos e serviços com informações fiscais (NCM, CFOP, CST/CSOSN
 
 ## 5. Emissão de NF-e (modelo 55)
 
-![Emissão de NF-e](screenshot/desktop/screenshot%205.png)
+![Emissão de NF-e](screenshot%205.png)
 
 Formulário de emissão de **NF-e 55**, com campos de identificação, produtos, impostos e totais.
 
@@ -51,7 +51,7 @@ Formulário de emissão de **NF-e 55**, com campos de identificação, produtos,
 
 ## 6. Emissão de NFC-e (modelo 65)
 
-![Emissão de NFC-e](screenshot/desktop/screenshot%206.png)
+![Emissão de NFC-e](screenshot%206.png)
 
 Fluxo de emissão de **NFC-e 65** para vendas ao consumidor final, otimizado para pontos de venda.
 
@@ -59,7 +59,7 @@ Fluxo de emissão de **NFC-e 65** para vendas ao consumidor final, otimizado par
 
 ## 7. Consulta de notas emitidas
 
-![Consulta de notas](screenshot/desktop/screenshot%207.png)
+![Consulta de notas](screenshot%207.png)
 
 Listagem de NF-e/NFC-e emitidas, com filtros por período, cliente, status, série, número etc.
 
@@ -67,7 +67,7 @@ Listagem de NF-e/NFC-e emitidas, com filtros por período, cliente, status, sér
 
 ## 8. Detalhes da NF-e / DANFE
 
-![Detalhes da NF-e](screenshot/desktop/screenshot%208.png)
+![Detalhes da NF-e](screenshot%208.png)
 
 Visualização dos detalhes da nota fiscal, com acesso ao XML, DANFE em PDF e ações como reenvio, impressão ou cancelamento.
 
@@ -75,7 +75,7 @@ Visualização dos detalhes da nota fiscal, com acesso ao XML, DANFE em PDF e a�
 
 ## 9. Relatórios / Faturamento
 
-![Relatórios](screenshot/desktop/screenshot%209.png)
+![Relatórios](screenshot%209.png)
 
 Relatórios de faturamento e/ou impostos esperados, com gráficos e consolidações por período (utilizando Chart.js).
 
@@ -83,7 +83,7 @@ Relatórios de faturamento e/ou impostos esperados, com gráficos e consolidaç�
 
 ## 10. Caixa / Sangria
 
-![Caixa e sangria](screenshot/desktop/screenshot%2010.png)
+![Caixa e sangria](screenshot%2010.png)
 
 Tela de controle de caixa, registros de vendas e **sangria de caixa**, auxiliando no controle financeiro diário.
 
@@ -91,21 +91,10 @@ Tela de controle de caixa, registros de vendas e **sangria de caixa**, auxiliand
 
 ## 11. Configurações avançadas
 
-![Configurações](screenshot/desktop/screenshot%2011.png)
+![Configurações](screenshot%2011.png)
 
 Área de configurações do sistema, incluindo:
 - empresas vinculadas ao usuário;
 - parâmetros fiscais;
 - certificados digitais;
 - opções de envio automático de XML e logs.
-
----
-
-## 📝 Observações
-
-- Todas as imagens estão em: `screenshot/desktop/`.
-- Caso você reorganize ou renomeie os arquivos, atualize também os caminhos neste `.md`.
-- Se quiser, você pode linkar este arquivo a partir do `README.md` principal, por exemplo:
-
-```markdown
-👉 Veja também: [Screenshots da versão desktop](./SCREENSHOTS_DESKTOP.md)
