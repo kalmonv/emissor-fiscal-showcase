@@ -1,14 +1,6 @@
 
 # 📸 Screenshots – Guarix (Versão Desktop – NW.js)
 
-Este documento apresenta alguns screenshots da versão **desktop** do Guarix, localizada em:
-
-`/screenshot/desktop/`
-
-> ℹ️ As descrições abaixo são sugestivas. Fique à vontade para ajustar o título/explicação de cada tela conforme o fluxo real do sistema.
-
----
-
 ## 1. Tela de login
 
 ![Tela de login](screenshot%201.png)
@@ -19,7 +11,7 @@ Tela de autenticação do usuário, com seleção de empresa (quando aplicável)
 
 ## 2. Dashboard inicial
 
-![Dashboard inicial](screenshot/desktop/screenshot%202.png)
+![Dashboard inicial](screenshot%202.png)
 
 Visão geral do sistema após o login, com atalhos para emissão de notas, relatórios e módulos principais.
 
