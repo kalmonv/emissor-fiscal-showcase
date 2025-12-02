@@ -74,8 +74,6 @@ O Guarix foi projetado para funcionar em dois cenários complementares:
 
 ## 🧩 Principais funcionalidades
 
-_Ajuste esta lista para ficar 100% alinhada com o que já está pronto hoje._
-
 - ✅ Emissão de **NF-e (55)** e **NFC-e (65)**;
 - ✅ **Suporte a múltiplos usuários**, com cada usuário podendo ter **1 ou N empresas** (multiempresa/multi-tenant);
 - ✅ **Cadastro de produtos, clientes e orçamentos**;
